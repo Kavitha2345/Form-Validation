@@ -1,0 +1,110 @@
+.contact {
+    width: 50%;
+    margin-left: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 20px;
+    background-color: #b8b5ff;
+    border: 1px solid black;
+    padding: 20px;
+    z-index: 100;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.heading {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.form-control {
+    font-size: 16px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.submit {
+    font-size: 1.1em;
+    margin-top: 15px;
+    width: 30%;
+    color: black;
+    background-color: orange;
+    font-family: Calibri;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit:hover {
+    background-color: #ff8c00;
+}
+
+#last {
+    display: none;
+}
+
+#detailTable {
+    background-color: white;
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+#detailTable th,
+#detailTable td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+#detailTable th {
+    background-color: #f2f2f2;
+    font-size: 18px;
+}
+
+#detailTable td {
+    font-size: 16px;
+}
+
+.form-group-password,
+.form-group-confirm-password {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.form-group-password label,
+.form-group-confirm-password label {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.form-group-password .form-control,
+.form-group-confirm-password .form-control {
+    font-size: 16px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
